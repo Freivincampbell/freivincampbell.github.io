@@ -1,0 +1,35 @@
+title: Freivin Campbell
+
+description: Blog de tecnologia.
+
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+paginate: 6
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Todos los articulos
+   url: /articles
+ # - title: Contact
+ #   url: /contact
+
+social:
+   github: Freivincampbell
+   instagram: freivincampbell
+   twitter: freivin12
+   facebook: Freivincampbell
+   email: freivin12@gmail.com
+
+
+
+google_analytics: "UA-77785423-1"
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
