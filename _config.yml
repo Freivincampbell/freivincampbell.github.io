@@ -1,6 +1,9 @@
 title: Freivin Campbell
 
-description: Blog de tecnologia.
+description: Blog de Freivin Campbell, Ingeniero en Software. Amante de la tecnología.
+logo: https://avatars1.githubusercontent.com/u/7534967?v=3&s=200
+author: Freivin Campbell
+
 
 baseurl: ""
 paginate_path: "blog/page:num/"
@@ -8,15 +11,19 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-paginate: 6
+paginate: 5
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-gist
+
+gist:
+  noscript: false
 
 navigation:
  - title: Home
    url: /index.html
- - title: Todos los articulos
+ - title: Todos los artículos
    url: /articles
  # - title: Contact
  #   url: /contact
