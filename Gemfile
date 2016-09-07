@@ -4,7 +4,7 @@ gem 'jekyll-seo-tag'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
-
+gem 'jemoji'
 gem 'bundler'
 gem 'jekyll'
 gem 'rack-jekyll'

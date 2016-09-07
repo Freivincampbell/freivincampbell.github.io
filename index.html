@@ -7,25 +7,30 @@ title: Freivin Campbell
   <h1 class="pageTitle">Artículos Recientes</h1>
   <ul class="posts noList">
     {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span> | <span class="date">por: {{post.escritor}} </span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <li>
+      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span> | <span class="date">por: {{post.escritor}} </span>
+      <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+
         <img height="200" width="350" src="assets/img/{{post.image}}"  />
-        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
-      </li>
+      </a>
+      <p class="description">
+        {{ post.content | strip_html | strip_newlines | truncate: 150 }}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">más</a>
+      </p>
+    </li>
     {% endfor %}
   </ul>
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Entradas Recientes</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Entradas Recientes</a>
     {% endif %}
     {% if paginator.total_pages > 0 %}
     <span style="margin-left: 30px;">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
     {% endif %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Entradas Antiguas</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Entradas Antiguas</a>
     {% endif %}
   </div>
 </div>
