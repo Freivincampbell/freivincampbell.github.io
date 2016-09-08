@@ -22,12 +22,18 @@ comments: true
 
 > Podemos crearla de dos formas con composer y también con laravel.
 
-```shell
+1. Laravel.
+
+````
 laravel new laravel_en_heroku
-```
-```shell
+````
+
+2. Composer.
+
+````
 composer create-project --prefer-dist laravel/laravel laravel_en_heroku
-```
+````
+
 > Con el proyecto ya creado entraremos a la carpeta y ejecutamos el comando para iniciar un nuevo repositorio.
 
 ```
@@ -40,9 +46,17 @@ git init
 
 >Continuando con la configuración crearemos un archivo en la raíz del proyecto con el nombre: **Procfile** y la primer línea escribiremos:
 
+1. Copiando y pegando.
+
 ```
 web: vendor/bin/heroku-php-apache2 public
 ```
+
+2. Comando.
+
+````
+echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
+````
 
 >En archivo le estamos indicando al proyecto en php que la ruta por defecto comenzara en public **_en mi caso_** ya que desde ahí es donde cargo el CSS y las imágenes.
 
@@ -55,7 +69,7 @@ heroku create laravel_en_heroku
 >Para que la app en **Heroku** sepa que el proyecto que subiremos es de **PHP** configuraremos la aplicación para esto:
 
 ````
-heroku config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php
+heroku buildpacks:set heroku/php
 ````
 
 >**Heroku** utiliza la base de datos por defecto de **Postgresql**, así que crearemos una base de datos para configurarla y utilizarla con nuestro proyecto.
@@ -96,7 +110,13 @@ DB_USERNAME= xwqoettsiiewgo
 DB_PASSWORD= pu63JXg0ZG2TI2FVE3FHH0g16J
 ````
 
->En el archivo **config** aproximadamente en la línea 29 debería de quedar de esta manera:
+>En el archivo **database** en la carpeta **config** aproximadamente en la línea 29 debería de quedar de esta manera:
+
+````
+.
+├── config
+    ├── database.php
+````
 
 ````
 'default' => env('DB_CONNECTION', 'pgsql'),
