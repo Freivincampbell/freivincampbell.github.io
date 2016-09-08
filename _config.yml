@@ -38,6 +38,6 @@ social:
 
 
 
-google_analytics: "UA-77785423-1"
+google_analytics: "UA-77785423-2"
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
