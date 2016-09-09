@@ -11,7 +11,7 @@ comments: true
 
 <!-- letra capital  -->
 
-<p class="intro"><span class="dropcap">A</span>prender a construir una aplicación web moderna es algo tedioso. Ruby on Rails hace que sea mucho más fácil y más divertido. Incluye todo lo necesario para crear aplicaciones fantásticas, y se puede aprender con el apoyo de nuestra comunidad grande y agradable.</p>
+<p class="intro"><span class="dropcap">A</span>prender a construir una aplicación web moderna es algo tedioso. Ruby on Rails hace que sea mucho más fácil y más divertido. Incluye todo lo necesario para crear aplicaciones fantásticas, y se puede aprender con el apoyo de la comunidad grande y agradable.</p>
 
 >[Documentación Rails](http://guides.rubyonrails.org/)
 
