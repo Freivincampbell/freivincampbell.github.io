@@ -6,16 +6,16 @@ title: Freivin Campbell
 <div class="home" id="home">
   <h1 class="pageTitle">Artículos Recientes</h1>
   <ul class="posts noList">
-    {% for post in paginator.posts %}
+    {% for page in paginator.posts %}
     <li>
-      <span class="date">{{ post.date | date: '%B %d, %Y' }}</span> | <span class="date">por: {{post.escritor}} </span>
-      <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3>
+      <span class="date">{% include formato_fecha.html %}</span> | <span class="date">por: {{page.escritor}} </span>
+      <h3><a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</h3>
 
-        <img height="200" width="350" src="assets/img/{{post.image}}"  />
+        <img height="200" width="350" src="assets/img/{{page.image}}"  />
       </a>
       <p class="description">
-        {{ post.content | strip_html | strip_newlines | truncate: 150 }}
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">más</a>
+        {{ page.content | strip_html | strip_newlines | truncate: 150 }}
+        <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">más</a>
       </p>
     </li>
     {% endfor %}
