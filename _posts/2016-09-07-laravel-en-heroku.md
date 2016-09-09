@@ -22,13 +22,13 @@ comments: true
 
 > Podemos crearla de dos formas con composer y también con laravel.
 
-1. Laravel.
+* 1-Laravel.
 
 ````
 laravel new laravel_en_heroku
 ````
 
-2. Composer.
+* 2-Composer.
 
 ````
 composer create-project --prefer-dist laravel/laravel laravel_en_heroku
@@ -46,13 +46,13 @@ git init
 
 >Continuando con la configuración crearemos un archivo en la raíz del proyecto con el nombre: **Procfile** y la primer línea escribiremos:
 
-1. Copiando y pegando.
+* 1-Copiando y pegando.
 
 ```
 web: vendor/bin/heroku-php-apache2 public
 ```
 
-2. Comando.
+* 2-Comando.
 
 ````
 echo web: vendor/bin/heroku-php-apache2 public/ > Procfile
