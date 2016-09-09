@@ -42,4 +42,14 @@ comments: true
 
 <img src="{{ '/assets/img/railsinstaller1.jpg' | prepend: site.baseurl }}" alt="">
 
+>Con ello podremos eejecutar en la consola (CMD) de **Windows** los siguientes comandos:
+
+````
+ruby -v
+````
+
+````
+rails -v
+````
+
 > Espero que hayas aprendido algo nuevo y útil. :smile:
