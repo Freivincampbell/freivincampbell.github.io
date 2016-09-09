@@ -9,7 +9,8 @@ layout: default
   </div>
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
-  <p class="meta">{{ page.escritor }} | {{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:80 }}</span> Minutos leyendo </p>
+  <p class="meta">{% include formato_fecha.html %} |
+<span class="time">{{ page.content | number_of_words | divided_by:80 }}</span> Minutos leyendo </p>
 
   {{ content }}
 
