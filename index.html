@@ -8,10 +8,10 @@ title: Freivin Campbell
   <ul class="posts noList">
     {% for page in paginator.posts %}
     <li>
-      <span class="date">Escrito el: {% include formato_fecha.html %}.</span> 
+      <span class="date">Escrito el: {% include formato_fecha.html %}.</span>
       <h3><a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</h3>
 
-        <img height="200" width="350" src="assets/img/{{page.image}}"  />
+        <img height="200" width="350" src="{{site.baseurl}}/assets/img/{{page.image}}"  />
       </a>
       <p class="description">
         {{ page.content | strip_html | strip_newlines | truncate: 150 }}
