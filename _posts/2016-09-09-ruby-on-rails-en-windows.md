@@ -38,7 +38,7 @@ comments: true
 
 >Ya sabemos que es Windows así que al descargar el instalador unicamente le daremos siguiente, siguiente, etc., deben prestar atención al marcar cuando preguntan si quieres agregar: ruby, rails, git al **path** de Windows.
 
-<img src="{{ '/assets/img/railsinstaller.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/railsinstaller.PNG' | prepend: site.baseurl }}" alt="">
 
 <img src="{{ '/assets/img/railsinstaller1.jpg' | prepend: site.baseurl }}" alt="">
 
