@@ -22,26 +22,35 @@ comments: true
 - Fontawesome -> [Documentacion oficial](https://github.com/bokmann/font-awesome-rails)
 
 ### Comencemos
+
 > Creamos un nuevo proyecto con el siguiente comando:
+
 ````
 rails new login-rails
 ````
+
 > Entramos al proyecto con el comando:
+
 ````
 cd login-rails
 ````
+
 > Con el editor de texto abrimos el proyecto, nos dirigimos al archivo llamado **Gemfile** y añadimos nuevas gemas a la lista las cuales serian:
+
 ````
 gem 'bootstrap-sass'
 gem 'devise'
 gem "font-awesome-rails"
 ````
+
 > La gema de **Bootstrap** será utilizada para la creación de las grillas *columnas*, la de **Devise** será utilizada para la autenticación y por último la gema **Fontawesome** para el uso de iconos en nuestro proyecto.
 
 > Luego de editar y guardar nuestros cambios en la terminal ejecutaremos el siguiente comando:
+
 ````
 bundle install
 ````
+
 > Al terminal debemos configurar las gemas instaladas, comenzaremos con la de **Bootstrap**
 
 > El archivo ubicado en los assets de nuestro proyecto con el nombre application.css lo renombramos a application.scss, debemos saber que de ahora en adelante cualquier archivo llamado desde nuestro archivo *.scss* debe llamarse con el **@import 'nombre archivo';** así que nuestro archivo deberá de quedar de esta manera:
@@ -70,13 +79,17 @@ bundle install
 ````
 rails generate devise:install
 ````
+
 > La consola nos despliega una serie de instrucciones, nos indica que debemos de buscar el archivo llamado **development.rb** y colocar la siguiente linea en el código:
+
 ````
  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 ````
+
 > Debemos modificar nuestro root_path  pero esto lo realizaremos más adelante, de la misma forma nos indica que debemos de añadir un **notice** y un **alert**  para las notificaciones de error o advertencia de nuestra gema pero de la misma forma lo añadiremos más adelante para trabajar con el **CSS**.
 
 > A continuación añadiremos el **MODEL** con *Devise* en mi caso se llamará user, escribimos en nuestra terminal el siguiente comando:
+
 ````
 rails generate devise  user
 ````
@@ -88,6 +101,7 @@ rake db:migrate
 ### Configuración de las vistas
 
 > Devise nos permite administrar las vistas generadas por la gema, con ello escribiremos en nuestra terminal el siguiente comando para hacer uso de las vistas:
+
 ````
 rails g devise:views
 ````
