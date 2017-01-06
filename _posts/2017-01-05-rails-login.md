@@ -95,6 +95,7 @@ rails generate devise  user
 ````
 rake db:migrate
 ````
+
 ### Configuración de las vistas
 
 > Devise nos permite administrar las vistas generadas por la gema, con ello escribiremos en nuestra terminal el siguiente comando para hacer uso de las vistas:
