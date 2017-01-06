@@ -154,6 +154,7 @@ rails g devise:views
 ````
 before_action :authenticate_user!
 ````
+
 > Todos los controladores heredan de ApplicationController, así que cualquier callback pasara por aqui y se comprobará si el usuario tiene una sesión activa.
 
 ```ruby
@@ -180,6 +181,7 @@ Rails.application.routes.draw do
   devise_for :users
 end
 ```
+
 > De esta forma cada vez que se quiera acceder a rutas protegidas **Devise** hará su magia y nos llevará a la página de login donde podremos iniciar sesión, si ya poseemos una cuenta  o podremos crear una nueva cuenta.
 
 <img src="{{ '/assets/img/login-2.PNG' | prepend: site.baseurl }}" alt="">
