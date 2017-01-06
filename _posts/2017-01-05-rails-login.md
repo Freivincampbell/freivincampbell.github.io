@@ -165,7 +165,7 @@ end
 > Escribimos en la terminal:
 
 ````
-rake g controller Welcome index
+rails g controller Welcome index
 ````
 > **Rails** nos escribe las rutas para el **controlador** creado así que únicamente indicaremos cual será el *root_path* para que **Devise** realice el redirect. Nos movemos hacia el archivo de rutas que se encuentra en la carpeta de **config** y deberá de quedar de la siguiente manera:
 
