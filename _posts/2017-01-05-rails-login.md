@@ -302,7 +302,7 @@ rails s
 - [LINK](https://github.com/Freivincampbell/login-rails)
 
 
-> Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme un comentario acá abajo.
+> Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
 
 >
 
