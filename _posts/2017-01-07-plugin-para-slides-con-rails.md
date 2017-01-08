@@ -75,19 +75,15 @@ rails s
   <div class="slide-wrapper">
     <div class="slide current one" id="0">
       <h1 class="slide-title">Slider #0</h1>
-      <i class="fa fa-keyboard-o"></i>
     </div>
     <div class="slide two shrink" id="1">
       <h1 class="slide-title">Slider #1</h1>
-      <i class="fa fa-keyboard-o"></i>
     </div>
     <div class="slide three shrink" id="2">
       <h1 class="slide-title">Slider #2</h1>
-      <i class="fa fa-keyboard-o"></i>
     </div>
     <div class="slide four shrink" id="3">
       <h1 class="slide-title">Slider #3</h1>
-      <i class="fa fa-keyboard-o"></i>
     </div>
   </div>
 </div>
