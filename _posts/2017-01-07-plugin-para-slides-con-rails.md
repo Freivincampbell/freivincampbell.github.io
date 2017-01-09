@@ -452,7 +452,7 @@ p {
 
 #### Link del repositorio en Github para la Descarga
 
-- [LINK](https://github.com/Freivincampbell/myslides)
+- [LINK](https://goo.gl/wQ0agA)
 
 > Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
 >

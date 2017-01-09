@@ -295,7 +295,7 @@ rails s
 #### Link del repositorio en Github para la Descarga
 
 
--[LINK](https://github.com/Freivincampbell/login-rails)
+- [LINK](https://goo.gl/QLXRFN)
 
 
 > Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
