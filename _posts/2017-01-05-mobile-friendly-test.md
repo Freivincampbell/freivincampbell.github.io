@@ -21,7 +21,7 @@ en nuestra ayuda, tiene la capacidad de analizar nuestra web e indicar si el sit
 - [LINK](https://goo.gl/O59cr4)
 
 
-- El uso es sencillo únicamente deberemos escribir la **URL** para que google haga su trabajo.
+> El uso es sencillo únicamente deberemos escribir la **URL** para que google haga su trabajo.
 >
 <img src="{{ '/assets/img/mobile-friendly-url.png' | prepend: site.baseurl }}" alt="">
 
