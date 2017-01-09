@@ -3,15 +3,15 @@ layout: post
 title: Fácil Fullscreen Menu
 image: Fullscreen-menu/menu.PNG
 logo: Fullscreen-menu/menu.PNG
-description: Creación de un menu fullscreen con efecto tipo Overlay de una forma fácil.
+description: Creación de un menu full screen con efecto tipo Overlay de una forma fácil.
 escritor: Freivin Campbell
 comments: true
 ---
-<p class="intro"><span class="dropcap">E</span>n este post crearemos nuestro menu fullscreen, con la ayuda de CSS, Javascript.</p>
+<p class="intro"><span class="dropcap">E</span>n este post crearemos nuestro menu full screen, con la ayuda de CSS, Javascript.</p>
 
 ## Comencemos
 
-> El **post** se trata de un poryecto con **CSS**, **JS** y **HTML** así que no hace falta tener algún proyecto de **Rails** para probarle.
+> El **post** se trata de un proyecto con **CSS**, **JS** y **HTML** así que no hace falta tener algún proyecto de **Rails** para probarle.
 
 > Crearemos una estructura base para un proyecto *WEB* un *archivo* **index.html**, una carpeta para el **CSS** y una para el **JS**, la estructura del proyecto debería de verse así;
 
@@ -52,7 +52,7 @@ fullscreen-menu
 - Jquery desde un **CDN**
 - link para el **JS**
 
-> Para continuar agregamos dentro de nustras etiquetas **Body** el siguiente fragmento de código:
+> Para continuar agregamos dentro de nuestras etiquetas **Body** el siguiente fragmento de código:
 
 ```html
 <nav class="menu-overlay">
@@ -153,7 +153,7 @@ font-size: 50px;
 }
 ```
 
-> **¡LISTO!** si abrimos el arhivo *index.html* debera de desplegar nuestro menu.
+> **¡LISTO!** si abrimos el archivo *index.html* deberá de desplegar nuestro menú.
 
 - Imagen:
 
