@@ -14,7 +14,15 @@ layout: default
 
   {{ content }}
 
-  
+  <div class="share">
+    <ul class="share-buttons">
+      <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://freivincampbell.github.io{{page.url}}" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="{{ site.baseurl }}/assets/img/color/Facebook.png"></a></li>
+       <li><a href="https://twitter.com/share?text={{ page.title }}&amp;url=https://freivincampbell.github.io{{page.url}}&amp;via=freivincampbell" target="_blank" title="Tweet"><img alt="Tweet" src="{{ site.baseurl }}/assets/img/color/Twitter.png"></a></li>
+      <li><a href="https://plus.google.com/share?url=https://freivincampbell.github.io{{ page.url }}" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="{{ site.baseurl }}/assets/img/color/Google+.png"></a></li>
+    </ul>
+  </div>
+
+
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
