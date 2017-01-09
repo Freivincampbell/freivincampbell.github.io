@@ -14,6 +14,55 @@ layout: default
 
   {{ content }}
 
+  <div class="share">
+    <!--the Twitter base
+      https://twitter.com/share -->
+
+  <a class="social-share" href="https://twitter.com/share?
+      text={{ page.title }}
+      &url={{ page.shorturl }}
+      &via=tomhohenstein">
+
+      <!-- use the twitter logo for the link -->
+      <img alt="..."
+          class="footer-icon"
+          src="{{ site.baseurl }}/assets/img/social-img/twitter.png">
+
+  </a>
+
+  <!--the Google+ link url;
+    base = https://plus.google.com/share? -->
+
+<a class="social-share" href="https://plus.google.com/share?
+    url=http://tomhohenstein.com{{ page.url }}
+    &hl=en-US"
+    onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+
+    <!-- use the google+ logo for the link -->
+    <img
+        alt="..."
+        class="footer-icon"
+        src="{{ site.baseurl }}/assets/img/social-img/google.png">
+</a>
+
+<!--the Facebook base
+    https://www.facebook.com/dialog/share? -->
+
+<a class="social-share" href="https://www.facebook.com/dialog/share
+    ?app_id=946372735391329&display=popup
+    &href={{ site.url }}{{ page.url }}
+    &redirect_uri={{ site.url }}{{ page.url }}">
+
+    <!-- use the facebook logo for the link -->
+    <img
+        alt="..."
+        class="footer-icon"
+        src="{{ site.baseurl }}/assets/img/social-img/facebook.png">
+</a>
+
+  </div>
+
+
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
     {% if page.previous.url %}
