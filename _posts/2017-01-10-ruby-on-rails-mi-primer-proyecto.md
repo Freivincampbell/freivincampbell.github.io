@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mi primer proyecto con Rails
-image: rails-primer-proyecto/rails.jpg
-logo: rails-primer-proyecto/rails.jpg
+image: rails-primer-proyecto/rails.JPG
+logo: rails-primer-proyecto/rails.JPG
 description: Crear mi primer proyecto con Rails.
 escritor: Freivin Campbell
 comments: true
