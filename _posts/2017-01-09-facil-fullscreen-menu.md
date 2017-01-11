@@ -12,7 +12,7 @@ comments: true
 ## Comencemos
 
 > El **post** se trata de un proyecto con **CSS**, **JS** y **HTML** así que no hace falta tener algún proyecto de **Rails** para probarle.
-
+>
 > Crearemos una estructura base para un proyecto *WEB* un *archivo* **index.html**, una carpeta para el **CSS** y una para el **JS**, la estructura del proyecto debería de verse así;
 
 ````
@@ -46,11 +46,11 @@ fullscreen-menu
 
 > Agregamos:
 
-- link para el **CSS**
-- Fuentes con **Google** desde un **CDN**
-- Iconos con font awesome desde un **CDN**
-- Jquery desde un **CDN**
-- link para el **JS**
+-   link para el **CSS**
+-   Fuentes con **Google** desde un **CDN**
+-   Iconos con font awesome desde un **CDN**
+-   Jquery desde un **CDN**
+-   link para el **JS**
 
 > Para continuar agregamos dentro de nuestras etiquetas **Body** el siguiente fragmento de código:
 
@@ -76,7 +76,7 @@ fullscreen-menu
 
 > Falta el **CSS** y darle funcionalidad con **javascript** en nuestros archivos correspondientes colocaremos el siguiente fragmento de código:
 
-- javascript.js
+-   javascript.js
 
 ```js
 $('.menu-toggle').on('click', function(){
@@ -84,7 +84,7 @@ $('.menu-toggle').on('click', function(){
 })
 ```
 
-- style.css
+-   style.css
 
 ```css
 .menu-overlay {
@@ -155,7 +155,7 @@ font-size: 50px;
 
 > **¡LISTO!** si abrimos el archivo *index.html* deberá de desplegar nuestro menú.
 
-- Imagen:
+-   Imagen:
 
 <img src="{{ '/assets/img/Fullscreen-menu/menu-1.PNG' | prepend: site.baseurl }}" alt="">
 
@@ -163,7 +163,7 @@ font-size: 50px;
 
 #### Link del repositorio en Github para la Descarga
 
-- [LINK](https://goo.gl/SavjC4)
+-   [LINK](https://goo.gl/SavjC4)
 
 > Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
 >

@@ -22,7 +22,7 @@ rails new nombre_proyecto
 ```
 
 > Con nuestro editor de texto favorito abriremos el proyecto que acabamos de crear.
-
+>
 > Creamos un controlador para hacer  el render de la vista que usaremos para mostrar nuestra presentación.
 
 ```shell
@@ -94,11 +94,11 @@ rails s
 <img src="{{ '/assets/img/sliders-2.PNG' | prepend: site.baseurl }}" alt="">
 
 > Listo si refrescamos podremos ver los **”slides”**, falta el CSS y el JS, cuando nos encontramos trabajando con archivos **.CSS** y con archivos **.js** o **.coffee**, el se encarga de adjuntarlos y así ver sus estilos aplicados de igual forma todo lo que tenga que ver con **Javascript** no debemos hacer nada en nuestro **head**.
-
+>
 > Únicamente renombramos el archivo sliders.scss  por **sliders.css** en nuestra carpeta de **stylesheets** y de igual forma renombramos nuestro **sliders.coffee** y le llamaremos **sliders.js**, copiamos y pegamos el código correspondiente para cada archivo.
 
 
-- sliders.js
+-   sliders.js
 
 ```javascript
 $(document).ready(function() {
@@ -161,7 +161,7 @@ $(document).ready(function() {
 });
 ```
 
-- sliders.css
+-   sliders.css
 
 ```css
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
@@ -452,7 +452,7 @@ p {
 
 #### Link del repositorio en Github para la Descarga
 
-- [LINK](https://goo.gl/wQ0agA)
+-   [LINK](https://goo.gl/wQ0agA)
 
 > Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
 >

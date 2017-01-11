@@ -11,15 +11,15 @@ comments: true
 <p class="intro"><span class="dropcap">R</span>ails es un framework muy versátil que nos permite crear sitios rapidamente, la utilización de gemas "plugins" por llamarle de esa forma nos ayuda en el desarrollo.</p>
 
 # Antes de comenzar
-- Ruby On Rails
+-   Ruby On Rails
 -> [Windows](https://freivincampbell.github.io/blog/ruby-on-rails-en-windows/)
 / [Linux](https://freivincampbell.github.io/blog/ruby-on-rails-en-ubuntu-16-04/)
-- Editor de texto -> [Instalar Atom](https://freivincampbell.github.io/blog/atom/)
+-   Editor de texto -> [Instalar Atom](https://freivincampbell.github.io/blog/atom/)
 
 ### Documentación de las gemas a utilizar
-- Devise -> [Documentacion oficial](https://github.com/plataformatec/devise)
-- Bootstrap -> [Documentacion oficial](https://github.com/twbs/bootstrap-sass)
-- Fontawesome -> [Documentacion oficial](https://github.com/bokmann/font-awesome-rails)
+-   Devise -> [Documentacion oficial](https://github.com/plataformatec/devise)
+-   Bootstrap -> [Documentacion oficial](https://github.com/twbs/bootstrap-sass)
+-   Fontawesome -> [Documentacion oficial](https://github.com/bokmann/font-awesome-rails)
 
 ### Comencemos
 
@@ -229,7 +229,7 @@ end
 
 > Perfecto si todo salio bien únicamente nos hace falta el CSS, recuerden todo archivo debe ser llamado con el **@import 'nombre_archivo';**  creamos un archivo llamado **login-css.scss** en assets y en la carpeta de **stylesheets**
 
-- login-css.scss
+-   login-css.scss
 
 ```css
 body{
@@ -295,7 +295,7 @@ rails s
 #### Link del repositorio en Github para la Descarga
 
 
-- [LINK](https://goo.gl/QLXRFN)
+-   [LINK](https://goo.gl/QLXRFN)
 
 
 > Seria todo, con esto terminamos, si tienen alguna pregunta, duda o comentario no duden en escribirme acá abajo.
