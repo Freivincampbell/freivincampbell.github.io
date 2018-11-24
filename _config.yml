@@ -12,7 +12,7 @@ permalink: blog/:title/
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-gist
