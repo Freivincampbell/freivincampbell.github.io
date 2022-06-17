@@ -8,6 +8,6 @@ group :production, :development do
   gem 'jekyll-seo-tag'
   gem 'jemoji'
   gem 'rack-jekyll'
-  gem 'i18n', '<= 0.7.0'
+  gem 'i18n', '<= 0.9.0'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
